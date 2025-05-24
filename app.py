@@ -6,7 +6,7 @@ from io import BytesIO
 
 # Initialize OpenAI client with Together.ai base URL
 client = OpenAI(
-    api_key=st.secrets['tgp_v1_erthCyvdy9Svr5FmmzBcOGVtohHfheZlGO_Ssm6JziQ'],
+    api_key=st.secrets['TOGETHER_API_KEY'],
     base_url="https://api.together.xyz/v1"
 )
 
